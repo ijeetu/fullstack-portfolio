@@ -192,6 +192,21 @@
   background-image: url("https://dummyimage.com/1400x1000/414141/636363");
 }
 
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  object-fit: cover; /* Ensures the video covers the entire container */
+  background-size: cover;
+}
+
+
 .main-image-2 {
   background-image: url("https://dummyimage.com/1920x1080/414141/636363");
 }
